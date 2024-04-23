@@ -1,3 +1,5 @@
+package edu.joao.primeiraSemana;
+
 public class PrimeirasAulas {
 
     public static void main(String[] args) {
