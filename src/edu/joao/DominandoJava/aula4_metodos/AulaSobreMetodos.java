@@ -1,4 +1,4 @@
-package edu.joao.aula4_metodos;
+package edu.joao.DominandoJava.aula4_metodos;
 
 public class AulaSobreMetodos {
 

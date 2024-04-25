@@ -1,4 +1,4 @@
-package edu.joao.aula1_AnatomiaDasClasses;
+package edu.joao.DominandoJava.aula1_AnatomiaDasClasses;
 
 public class PrimeirasAulas {
 

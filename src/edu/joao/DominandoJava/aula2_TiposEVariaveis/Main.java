@@ -1,4 +1,4 @@
-package edu.joao.aula2_TiposEVariaveis;
+package edu.joao.DominandoJava.aula2_TiposEVariaveis;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package edu.joao.aula3_operadores;
+package edu.joao.DominandoJava.aula3_operadores;
 
 public class Operadores {
     public static void main(String[] args) {
