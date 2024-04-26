@@ -3,9 +3,10 @@ package edu.joao.POO.Aula_Construtores;
 public class SistemaCadastro {
     public static void main(String[] args) {
 
-        //instanciando um objeto sem construtor
-        //Pessoa marcos = new Pessoa();
-        //marcos.setEndereco("Rua Amazonas");
+        //instanciando um objeto com construtor padrão
+        Pessoa marcos = new Pessoa();
+        marcos.setEndereco("Rua Amazonas");
+        System.out.println(marcos.getNome()); //na classe não tem o método setNome
 
 
         //Criando objeto com construtor
