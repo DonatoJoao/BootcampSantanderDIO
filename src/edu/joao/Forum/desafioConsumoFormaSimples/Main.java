@@ -19,7 +19,7 @@ public class Main {
         System.out.println("Quantos km seu carro anda com 1L de GASOLINA?");
         double kmPorLitroGasolina = leitura.nextDouble();
 
-        if ((valorEtanol/kmPorLitroEtanol) > (valorGasolina/kmPorLitroGasolina)){
+        if ((valorEtanol/kmPorLitroEtanol) < (valorGasolina/kmPorLitroGasolina)){
             System.out.println("Pelo consumo do seu carro e preço do combustível: compensa abastecer com ETANOL");
         } else {
             System.out.println("Pelo consumo do seu carro e preço do combustível: compensa abastecer com GASOLINA");
