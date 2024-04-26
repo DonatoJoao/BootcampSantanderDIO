@@ -12,6 +12,6 @@ public class TestaCalculo {
         modeloVeiculo.setNomeVeiculo("Civic");
         System.out.println(carro.getModelo().getNomeVeiculo());
 
-        carro.calculaConsumoGasolina(5.69); //Em construção
+        //carro.calculaConsumoGasolina(5.69); //Em construção
     }
 }

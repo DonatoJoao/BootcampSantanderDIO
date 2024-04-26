@@ -3,6 +3,7 @@ package edu.joao.Forum.desafioConsumoPOO.Veiculos;
 public class ModeloVeiculo {
 
     private String nomeVeiculo;
+    private String cor;
     private double potencia;
     private int ano;
 
@@ -19,6 +20,7 @@ public class ModeloVeiculo {
     }
 
     public void setPotencia(double potencia) {
+
         this.potencia = potencia;
     }
 
