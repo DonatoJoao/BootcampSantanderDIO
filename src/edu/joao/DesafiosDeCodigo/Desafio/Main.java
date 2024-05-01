@@ -1,7 +1,7 @@
-package edu.joao.Forum.Desafio;
+package edu.joao.DesafiosDeCodigo.Desafio;
 
 import java.util.Scanner;
-
+//DESAFIO 1
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
