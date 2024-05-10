@@ -1,4 +1,4 @@
-package edu.joao.DesafioContaBanco;
+package edu.joao.Desafios.ContaTerminal;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

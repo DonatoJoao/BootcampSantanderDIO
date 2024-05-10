@@ -1,8 +1,8 @@
-package edu.joao.DesafiosDeCodigo.Desafio;
+package edu.joao.Desafios.DesafioUm;
 
 import java.util.Scanner;
 //DESAFIO 1
-public class Main {
+public class DesafioUm {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         double saldo = 0;
