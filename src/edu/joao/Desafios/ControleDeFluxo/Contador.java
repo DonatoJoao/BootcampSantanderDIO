@@ -17,7 +17,8 @@ public class Contador {
             System.out.println("Digite o segundo número maior que o primeiro");
             parametroDois = terminal.nextInt();
         } catch (InputMismatchException e){
-            System.out.println("Você deve digitar somente números");
+            System.err.println("Você deve digitar somente números");
+
         }
 
 
@@ -35,7 +36,7 @@ public class Contador {
                 System.out.println("iteração " + (i+1) + " é o numero: " + (i+parametroUm));
             }
         } else {
-            System.out.println("O segundo parâmetro deve ser maior que o primeiro");
+            System.err.println("O segundo parâmetro deve ser maior que o primeiro");
         }
     }
 }
