@@ -28,4 +28,9 @@ public class Curso extends  Conteudo{
     public double calcularXp() {
         return XP_PADRAO * cargaHoraria;
     }
+
+    @Override
+    public double calcularCargaHoraria() {
+        return cargaHoraria;
+    }
 }

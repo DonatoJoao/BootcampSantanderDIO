@@ -31,4 +31,9 @@ public class Mentoria extends Conteudo {
     public double calcularXp() {
         return XP_PADRAO + 20d;
     }
+
+    @Override
+    public double calcularCargaHoraria() {
+        return 0;
+    }
 }

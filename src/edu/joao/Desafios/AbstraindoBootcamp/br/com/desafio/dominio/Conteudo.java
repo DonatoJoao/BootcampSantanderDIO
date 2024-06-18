@@ -7,6 +7,7 @@ public abstract class Conteudo {
     private String descricao;
 
     public abstract  double calcularXp();
+    public abstract double calcularCargaHoraria();
     public String getTitulo() {
         return titulo;
     }

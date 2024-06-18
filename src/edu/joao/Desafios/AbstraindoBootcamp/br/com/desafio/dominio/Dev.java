@@ -28,6 +28,11 @@ public class Dev {
                 .mapToDouble(Conteudo::calcularXp)
                 .sum();
     }
+    public double totalCargaHoraria(){
+        return this.conteudosConcluidos.stream()
+                .mapToDouble(Conteudo::calcularCargaHoraria)
+                .sum();
+    }
 
     public String getNome() {
         return nome;
